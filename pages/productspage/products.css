@@ -1,0 +1,14 @@
+.productsPageLayout {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.fix-filter-card {
+  /* position: fixed; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* overflow: hidden; */
+  background-color: #fff;
+  height: max-content;
+  /* z-index: 1;  */
+}
