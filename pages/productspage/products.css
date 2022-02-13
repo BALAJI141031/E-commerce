@@ -6,7 +6,7 @@
 .fix-filter-card {
   /* position: fixed; */
   /* left: 0; */
-  /* width: 100%; */
+  width: 90%;
   /* overflow: hidden; */
   background-color: #fff;
   height: max-content;
