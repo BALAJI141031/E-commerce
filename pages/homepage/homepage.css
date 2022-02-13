@@ -1,0 +1,20 @@
+main {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+}
+
+.header {
+  background-color: rgb(71, 69, 69);
+}
+
+.margin {
+  margin: 0.5em;
+}
+
+.res-image {
+  width: 100%;
+  height: auto;
+  /* margin: 0.5em; */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,39 @@
+.search {
+  border-style: solid;
+  border-width: 0.2em;
+  padding: 0.5em;
+  width: 20em;
+}
+
+.search input[type="text"] {
+  padding: 0.2em;
+  margin-top: 0.3em;
+  font-size: 1em;
+  border: none;
+  width: auto;
+  height: auto;
+}
+.search input[type="text"]:focus {
+  outline: none;
+}
+
+nav div[class="flex-H-space-around"] {
+  width: 15em;
+}
+
+nav div[class="flex-H-space-around"] > button {
+  width: 5em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 1;
+}
+
+main {
+  margin-top: 5em;
+}
