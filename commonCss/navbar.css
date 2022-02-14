@@ -37,3 +37,25 @@ nav {
 main {
   margin-top: 5em;
 }
+
+.position-relative {
+  position: relative;
+}
+
+.nav-icon-badge {
+  border-style: solid;
+  border-width: 0px;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -0.8em;
+  right: -0.8em;
+  padding: 0.4em;
+  color: var(--pale-white);
+}
