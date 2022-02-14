@@ -4,7 +4,6 @@
   padding: 0.5em;
   width: 20em;
 }
-
 .search input[type="text"] {
   padding: 0.2em;
   margin-top: 0.3em;
@@ -61,7 +60,6 @@ main {
   font-size: 0.7rem;
   background-color: var(--badge-color);
 }
-
 nav a:hover {
   cursor: pointer;
   color: var(--badge-color);
