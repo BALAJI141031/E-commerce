@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: #282c3f;
+  background-color: var(--hero-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,6 @@
 }
 
 .header > div {
-  /* background-color: red; */
   width: 80em;
   position: relative;
   transition: transform 2s cubic-bezier(0.3, 0.8, 0.45, 2);
@@ -38,7 +37,6 @@
 .res-image {
   width: 100%;
   height: auto;
-  /* margin: 0.5em; */
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
