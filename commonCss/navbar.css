@@ -18,7 +18,7 @@
 }
 
 nav div[class="flex-H-space-around"] {
-  width: 15em;
+  width: 22em;
 }
 
 nav div[class="flex-H-space-around"] > button {
@@ -31,7 +31,7 @@ nav {
   width: 100%;
   overflow: hidden;
   background-color: #fff;
-  z-index: 1;
+  z-index: 5;
 }
 
 main {
@@ -47,15 +47,17 @@ main {
   border-width: 0px;
   width: 1.6em;
   height: 1.6em;
-  border-radius: 50%;
+  border-radius: 20%;
   text-align: center;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -0.8em;
-  right: -0.8em;
-  padding: 0.4em;
+  top: -1em;
+  right: -1em;
+  padding: 0.5em;
   color: var(--pale-white);
+  font-size: 0.7rem;
+  background-color: #ff5677;
 }
