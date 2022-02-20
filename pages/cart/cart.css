@@ -1,3 +1,13 @@
 .price-card {
   width: 20em;
 }
+
+.cart-layout {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.1fr;
+}
+
+.cart-layout > div > div {
+  margin-bottom: 1em;
+  box-shadow: none;
+}
