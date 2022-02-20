@@ -4,7 +4,6 @@
   padding: 0.5em;
   width: 20em;
 }
-
 .search input[type="text"] {
   padding: 0.2em;
   margin-top: 0.3em;
@@ -18,7 +17,7 @@
 }
 
 nav div[class="flex-H-space-around"] {
-  width: 15em;
+  width: 22em;
 }
 
 nav div[class="flex-H-space-around"] > button {
@@ -30,12 +29,12 @@ nav {
   top: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #fff;
-  z-index: 1;
+  background-color: var(--pale-white);
+  z-index: 4;
 }
 
 main {
-  margin-top: 5em;
+  margin-top: 8em;
 }
 
 .position-relative {
@@ -47,15 +46,21 @@ main {
   border-width: 0px;
   width: 1.6em;
   height: 1.6em;
-  border-radius: 50%;
+  border-radius: 20%;
   text-align: center;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -0.8em;
-  right: -0.8em;
-  padding: 0.4em;
+  top: -1em;
+  right: -1em;
+  padding: 0.5em;
   color: var(--pale-white);
+  font-size: 0.7rem;
+  background-color: var(--badge-color);
+}
+nav a:hover {
+  cursor: pointer;
+  color: var(--badge-color);
 }
