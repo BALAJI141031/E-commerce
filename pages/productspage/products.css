@@ -4,11 +4,12 @@
 }
 
 .fix-filter-card {
-  /* position: fixed; */
-  /* left: 0; */
-  width: 90%;
-  /* overflow: hidden; */
-  background-color: #fff;
+  width: 100%;
+  background-color: var(--pale-white);
   height: max-content;
-  /* z-index: 1;  */
+  border: none;
+}
+
+.slider {
+  width: 100%;
 }
