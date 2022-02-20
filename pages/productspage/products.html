@@ -20,8 +20,8 @@
     <title>productsPage</title>
   </head>
   <body>
-    <nav class="flex-H-space-bw">
-      <div><h1>SparkCart</h1></div>
+    <nav class="flex-H-space-around">
+      <div><span class="span-style">SparkCart</span></div>
       <a href="../../commonpage/search.html"><div>
         <i class="fas fa-search"></i>
         Search.....
@@ -36,6 +36,7 @@
           <i class="fas fa-heart icon-md"></i>
           <div class="nav-icon-badge">99+</div>
         </div>
+        
       </nav>
 
     <main class="productsPageLayout">
@@ -45,6 +46,15 @@
           <h4>ClearAll</h4>
         </div>
         <h4>Price</h4>
+        <input
+        class="slider"
+        type="range"
+        name="range"
+        id="range"
+        min="10"
+        max="250"
+        value="35"
+      />
         <div class="flex-space-between">
           <h4>100</h4>
           <h4>200</h4>
@@ -56,6 +66,14 @@
           <input type="checkbox" />
           <p>5 stars</p>
         </div>
+        <div class="flex-H-center-V">
+          <input type="checkbox" />
+          <p>4 stars</p>
+        </div>
+        <div class="flex-H-center-V">
+          <input type="checkbox" />
+          <p>3 stars</p>
+        </div>
         <h4>Sort by</h4>
         <div class="flex-H-center-V">
           <input type="checkbox" />
@@ -64,6 +82,21 @@
         <div class="flex-H-center-V">
           <input type="checkbox" />
           <p>price-High to Low</p>
+        </div>
+        <h4>Restaurents</h4>
+        <div>
+          <p>Paradise</p>
+          <p>Hotel Shadab</p>
+          <p>Hotel Navayuga</p>
+          <p>Meghana Foods</p>
+        </div>
+        <h4>
+          offers
+        </h4>
+        <div>
+          <p>Free Delivery</p>
+          <p>30 min Delivery</p>
+          
         </div>
       </div>
       <div class="flex-wrap">
