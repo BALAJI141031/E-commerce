@@ -1,0 +1,15 @@
+.productsPageLayout {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.fix-filter-card {
+  width: 100%;
+  background-color: var(--pale-white);
+  height: max-content;
+  border: none;
+}
+
+.slider {
+  width: 100%;
+}
