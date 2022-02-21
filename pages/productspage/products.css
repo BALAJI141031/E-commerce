@@ -5,7 +5,7 @@
 
 .fix-filter-card {
   width: 100%;
-  background-color: var(--pale-white);
+  background-color: var(--bg-color);
   height: max-content;
   border: none;
 }
