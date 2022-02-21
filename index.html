@@ -16,6 +16,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
     <title>Homepage</title>
   </head>
   <body>
@@ -26,15 +27,19 @@
         Search.....
       </div></a>
       <div class="flex-H-space-around">
-        <button class="btn primary-btn">Login</button>
-        <div class="position-relative">
+        <a href="./pages/login/login.html"><button class="btn primary-btn">Login</button></a>
+        <div class="dark-light-btn">
+          <i class="fas fa-moon header-icons header-icons-m-lr">Dark</i>
+        </div>
+        <a href="./pages/cart/cart.html"><div class="position-relative">
           <i class="fas fa-cart-plus icon-md"></i>
           <div class="nav-icon-badge">99+</div>
-        </div>
-        <div class="position-relative">
+        </div></a>
+       <a href="./pages/wishList/whishList.html"> <div class="position-relative">
           <i class="fas fa-heart icon-md"></i>
           <div class="nav-icon-badge">99+</div>
-        </div>
+        </div></a>
+        
         
       </nav>
     <main class="homepageLayout">
