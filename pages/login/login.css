@@ -9,6 +9,10 @@
   width: 25em;
 }
 
+.flex-V-center-VH > div p {
+  color: var(--heading-color);
+}
+
 .flex-V-center-VH > div > div > input {
   width: 90%;
   height: 3em;
