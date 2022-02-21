@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://uispark.netlify.app/allComponents.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css "
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="../../style.css"/>
+  <link rel="stylesheet" href="./login.css"/>
     <title>Login</title>
   </head>
   <body>
@@ -24,5 +38,27 @@
             <div class="nav-icon-badge">99+</div>
           </div>   
         </nav>
+        <main class="flex-V-center-VH">
+            <div>
+              <h1 class="text-align-center">Login</h1>
+              <div>
+                <label class="email">Email address</label><br/>
+                <input tyoe="text" placeholder="balaji@gmail.com" id="email" />
+              </div>
+              <div>
+                <label class="paswd">Password</label><br />
+                <input tyoe="text" placeholder="password" id="paswd" />
+              </div>
+              <div class="flex-H-space-bw">
+                <div>
+                  <input type="checkbox" />
+                  <strong>Remember me</strong>
+                </div>
+                <p>Forgot your password</p>
+              </div>
+              <div class="flex-v"><button class="btn primary-btn">Login</button></div>
+              <p>Create New Account</p>
+            </div>
+          </main>
   </body>
 </html>
