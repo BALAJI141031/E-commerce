@@ -31,6 +31,11 @@ nav {
   overflow: hidden;
   background-color: var(--pale-white);
   z-index: 4;
+  border-bottom: 1px solid;
+}
+
+nav i {
+  color: var(--primary-color);
 }
 
 main {
