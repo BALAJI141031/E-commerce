@@ -1,0 +1,15 @@
+.flex-V-center-VH > div > div {
+  margin-top: 1em;
+}
+
+.flex-V-center-VH > div {
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+  width: 25em;
+}
+
+.flex-V-center-VH > div > div > input {
+  width: 90%;
+  height: 3em;
+}
